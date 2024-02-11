@@ -1,0 +1,72 @@
+first oackage insall
+
+tarpor components folder ee templte gula spleting kore different different component file rakha
+
+image location thik kora
+
+
+tarpor hooks folder useHooks create kore
+
+customhooks
+------------------
+
+hooks e state crete kore  Stucture object create kora
+
+ const [wheatherData, setWeatherData] = useState({
+    // niche data stucture
+    location: "",
+    climate: "",
+    temperature: "",
+    maxTemperatur: "",
+    minTemperature: "",
+    humandity: "",
+    cloudPercentage: "",
+    wind: "",
+    time: "",
+    longitude: "",
+    latitude: "",
+  });
+
+amra true and flase er madhome set loading easily set korte pari ,kintu kono boro kono application er jonne ta appropriet noy , tai useState er vitore object niye kajta kore dekhano hoyeche ektu complex holeyo ta sob application kaj korano jabe
+
+  const [loading, setLoading] = useState({
+    state: false,
+    message: "",
+  });
+
+
+
+tarpor ekti errorstate nilam, etar kaj holo jodi kono error hoy ta dhora, eta sadharonoto null thakbe ,seterror diye dhore ta fix kora jabe
+
+  const [error,setError] = useState(null)
+
+
+ekhn api call er function 
+----------------
+
+weatherdata longitute and latitute khoboi gurotto purno,ei duta peramitar akare neyar karon fatchapidata jekhanei call kori  longitute and latitute call korle data nia ashte parbe
+
+try and catch korar karon jodi api call korte jeye kono error hoy tahole catch kore error handle kora jabe 
+
+finaly er kaj holo try and catche true hole ta pore abr false korte hoy tai dui bar false na kore ekbare false kora hoyeche 
+
+
+
+
+
+erpor .env file api key rekhe usehooks ee ei key call kore hoyeche
+
+
+javascript method  nevigator.geolocation.getCurrentPosition eta javascript er ekti  call 
+function
+
+
+
+utils folder er vitore ekta data and time er function lekha hoyeche
+
+
+
+
+
+
+
